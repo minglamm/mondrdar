@@ -6,7 +6,7 @@
 //
 
 import SwiftUI
-import PartyUI
+import SwiftUI
 import Darwin
 import MachO
 import UIKit

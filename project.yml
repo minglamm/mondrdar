@@ -1,0 +1,13 @@
+name: mondrdar
+options:
+  bundleIdPrefix: com.minglamm
+targets:
+  mondrdar:
+    type: application
+    platform: iOS
+    deploymentTarget: "15.0"
+    sources: [Sources]
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.minglamm.mondrdar
+        GENERATE_INFOPLIST_FILE: YES
